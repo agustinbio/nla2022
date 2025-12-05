@@ -1,0 +1,22 @@
+COLUMN_NAME	LABEL	LEGAL_VALUES
+PUBLICATION_DATE	Date the dataset was published to the NARS site	
+UID	Unique identifier for the site/visit	
+UNIQUE_ID	"Unique site ID based on location that does not depend on year sampled or any other factor.  Form is NLA_ss_nnnnn  where ss state and nnnnn is number that starts at 10001.   No missing or \blank\"" values allowed."""	
+SITE_ID	"The NLA Site ID  for the study and year sampled.  Preferred form is NLAnn_MM-xxxxx  where  nn is current cycle year (07, 12, 17, etc), MM is two letter state code, and xxxxx is between 10001 and 99999. No missing values allowed."	
+VISIT_NO	Sequential number of visit to site	|1|2
+DATE_COL	Date of sample collection	
+PSTL_CODE	"State two letter postal code for site sampled. 50 state postal codes plus AS, MP, GU, PR, VI for American Samoa, Commonwealth of Northern Marianas, Guam, Puerto Rico and Virgin Islands.  No missing values allowed."	
+SAMPLE_TYPE	Code identifying sample type	
+TARGET_TAXON	Name of taxon at target taxon level	
+TAXA_ID	NLA Taxon ID number	
+TOTAL	Total number of individuals counted	
+IS_DISTINCT	Distinctness of taxon within sample	0|1
+TOTAL_300	"Total number of individuals in 300-organism subsample, based on NLA standardized taxonomy sample"	
+IS_DISTINCT_300	Distinct taxon in 300-organism subsample	1|0
+PHYLUM	Phylum of taxon	
+CLASS	Class of taxon	
+ORDER	Order of taxon	
+FAMILY	Family of taxon	
+SUBFAMILY	Subfamily of taxon	
+TRIBE	Tribe of taxon	
+GENUS	Genus of taxon	
