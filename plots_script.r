@@ -308,7 +308,7 @@ create_rmse_plots <- function() {
                                      color = BASE_ENV, shape = SPP_TRANS)) +
     geom_jitter(size = 3, width = 0.2, height = 0, alpha = 0.8) +
     scale_shape_manual(values = 1:length(unique(metrics_df$SPP_TRANS))) +
-    labs(title = "GLM",  # <--- Added Title
+    labs(title = "GLM",
          x = "Tipo de procesamiento",
          y = "RMSE/Abundancia total",
          color = "Variables ambientales",
@@ -325,7 +325,7 @@ create_rmse_plots <- function() {
     scale_shape_manual(values = 1:length(unique(metrics_df$SPP_TRANS))) +
     scale_y_continuous(trans='log10') +
     geom_hline(yintercept = 1, linetype = "dashed", color = "black", size = 0.1) +
-    labs(title = "GAM",  # <--- Added Title
+    labs(title = "GAM",
          x = "Tipo de procesamiento",
          y = "RMSE/Abundancia total (escala logarítmica)",
          color = "Variables ambientales",
