@@ -2,7 +2,7 @@
 
 ## Base de datos
 
-Los archivos con el prefijo `nla22` o `nla2022` constituyen la base de datos (archivos `.csv.gz`) y su descripción (archivos `.txt`). Se trata de los resultados de los muestreos de la **National Lakes Assessmente 2022** de la E.P.A. de Estados Unidos, sobre los que este trabajo se construye.
+Los archivos con el prefijo `nla22` o `nla2022` constituyen la base de datos (archivos con extensión `.csv.gz`) y su descripción (archivos con extensión `.txt`). Se trata de los resultados de los muestreos de la **National Lakes Assessmente 2022** de la E.P.A. de Estados Unidos, sobre los que este trabajo se construye.
 
 ## Código de otras fuentes
 El archivo `cleanplot.pca.R` corresponde al siguiente libro:
